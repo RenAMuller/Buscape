@@ -1,0 +1,37 @@
+*{
+               /*Tira a margem do header*/
+               margin: 0;
+               padding: 0;
+}
+
+header{        
+               /*Muda a cor de fundo do header(cabeçalho)*/
+               background-color: rgb(255, 194, 40);
+
+}
+.logo{
+               /*muda a largura em pixels*/
+               width: 200px;
+               /*Manda a imagem para a direita*/
+               padding-right: 1300px;
+}
+.carrinho{
+               width: 50px;
+
+}
+button{
+               background-color: transparent;
+               /*Altera a borda*/
+               border: none;
+               /*Altera o tipo de cursor quando passado em cima da imagem*/
+               cursor: pointer;
+}
+body{
+        background-color: rgb(218, 218, 218);       
+}
+.addcarrinho{
+               background-color: green;
+               color: white;
+               padding: 0.3%;
+               border-radius: 5%;
+}
